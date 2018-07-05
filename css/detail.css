@@ -1,0 +1,43 @@
+.detail-right-container {
+    margin: 0px;
+    box-sizing: border-box;
+    position: relative;
+    top: 80px;
+    left: 16%;
+    border: solid 1px black;
+    padding-top: 5px;
+    width: 84%;
+    white-space: nowrap;
+    min-width: 1100px;
+}
+
+.detail-video-container{
+    float:left;
+    border:solid black 1px;
+    width:75%;
+    height:800px;
+    min-width:750px;
+    min-height:800px;
+}
+
+.detail-other-container{
+    float:left;
+    border:solid black 1px;
+    width:25%;
+    min-width:250px;
+    height:800px;
+}
+
+.detail-video-name{
+    font-family: inherit;
+    font-weight: 500;
+    color: #272C2E;
+    font-size: 22px;
+    line-height: 1.5em;
+    margin:15px auto auto 20px;
+}
+
+.dplayer-container{
+    width:90%;
+    margin:10px auto auto 3%;
+}

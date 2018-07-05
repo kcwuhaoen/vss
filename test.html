@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+           var temp=$(".video-container");
+           temp.height(temp.width()*4/3);
+           $(window).resize({obj:temp},resizeHandler);
+        });
+
+        function resizeHandler(event){
+            var temp=event.data.obj;
+            temp.height(temp.width()*4/3);
+        }
+    </script>
+    <style>
+        .right-video-container{
+            height:1000px;
+            width:84%;
+            border:solid 1px black;
+            text-align:center;
+        }
+        .video-container{
+            width:21%;
+            border:solid black 1px;
+            display:inline-block;
+            margin:10px;
+        }
+    </style>
+</head>
+<body>
+<div class="right-video-container">
+    <div class="video-container" >
+        <div class="video-thumbnail-container">
+            <a>
+                <!--<img src="css/images/t1.jpg">-->
+            </a>
+        </div>
+    </div>
+    <div class="video-container" >
+        <div class="video-thumbnail-container">
+            <a>
+                <!--<img src="css/images/t1.jpg">-->
+            </a>
+        </div>
+    </div>
+    <div class="video-container" >
+        <div class="video-thumbnail-container">
+            <a>
+                <!--<img src="css/images/t1.jpg">-->
+            </a>
+        </div>
+    </div>
+    <div class="video-container" >
+        <div class="video-thumbnail-container">
+            <a>
+                <!--<img src="css/images/t1.jpg">-->
+            </a>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

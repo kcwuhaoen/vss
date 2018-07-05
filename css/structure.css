@@ -1,0 +1,250 @@
+body{
+    margin:0px;
+    min-width:800px;
+}
+
+*{
+    box-sizing: border-box;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    margin:0px;
+}
+
+ul,li{
+    margin:0px;
+    list-style-type: none;
+    color: #BBBBBB;
+    font-size: 20px;
+    font-weight: 600;
+    padding:0px;
+    text-align:center;
+    cursor:pointer;
+    letter-spacing:1em;
+
+}
+
+a:hover{
+    color:inherit;
+}
+
+a:visited{
+    color:inherit;
+}
+
+a:active{
+    color:inherit;
+}
+
+a:link{
+    color:inherit;
+}
+
+.left-ctg-container li{
+    width:100%;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.left-ctg-container li:hover{
+    background-color:black;
+    color:lightskyblue;
+}
+
+
+a{
+    text-decoration:none;
+    text-align: center;
+    width:100%;
+    font-weight:600;
+}
+
+.header-container {
+    background-color:white;
+    z-index: 10;
+    width: 100%;
+    height: 80px;
+    min-width: 800px;
+    border-bottom: solid 1px gray;
+    font-size: 25px;
+    white-space:nowrap;
+    position:fixed;
+}
+
+.header-logo-image{
+    height:75px;
+    vertical-align: middle;
+}
+
+.header-search-container{
+    margin-left:6%;
+}
+
+.header-search-input{
+    font-size:30px;
+    height:30px;
+    width:35%;
+    height:40px;
+    margin-left:25px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position:relative;
+    top:5px;
+}
+
+.header-userInfo-container{
+    margin-left:15%;
+    font-size:15px;
+}
+
+.header-userInfo-container a{
+    margin-left:1%;
+}
+
+
+
+.header-userInfo-face{
+    border-radius:50%;
+    overflow: hidden;
+    height:50px;
+    vertical-align:middle;
+    border:solid 1px darkgray;
+
+}
+
+.header-search-btn{
+    text-align:center;
+    display:inline-block;
+    background-color:#734d99;
+    width:50px;
+    height:40px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position:relative;
+    top:0px;
+    right:5px;
+}
+
+ .un-login .header-userInfo-logout{
+    display:none;
+}
+
+ .left-ctg-container{
+     background-color:#272c2e;
+     height:100%;
+     width:16%;
+     min-width:140px;
+     overflow:hidden;
+     float:left;
+    position:fixed;
+    margin-top:80px;
+     z-index: 10;
+ }
+
+.right-video-container{
+    min-width:600px;
+    z-index:9;
+    text-align:center;
+    position:relative;
+    top:80px;
+    left:16%;
+    width:84%;
+    white-space: nowrap;
+    padding-top:5px;
+}
+.video-container{
+    border:solid 2px lightgray;
+    display:inline-block;
+    margin:1%;
+    width:21%;
+    white-space:nowrap;
+    overflow:hidden;
+    cursor:pointer;
+    border-radius:20px;
+    position:relative;
+}
+
+.video-thumbnail-container{
+    height:70%;
+    width:100%;
+}
+
+.video-thumbnail-img{
+    height:100%;
+    position:relative;
+    right:20%;
+}
+
+.right-ctg-container{
+    width:100%;
+    text-align:left;
+}
+
+
+.right-ctg-name{
+    font-size:25px;
+    font-weight:600;
+    display:inline-block;
+    margin-bottom:0px;
+    padding-left:2%;
+    width:40%;
+    letter-spacing: 2px;
+    border-bottom:double rebeccapurple 4px;
+}
+
+.right-ctg-more{
+    margin-top:5px;
+    width:70px;
+    position:relative;
+    left:45%;
+    display:inline-block;
+}
+
+.video-container:hover{
+    color:blue;
+    border:solid 2px gray;
+}
+
+.video-little-name{
+    display:inline-block;
+    margin:5px auto;
+    width:60%;
+    height:15%;
+    white-space:pre-wrap;
+    z-index: 7;
+    max-height: 20%;
+}
+
+.video-little-container{
+    position:absolute;
+    top:86%;
+    z-index:8;
+    color:gray;
+    font-size:16px;
+    background-color: white;
+}
+
+.video-little{
+    display:inline-block;
+    position:relative;
+}
+
+.video-little-author{
+    margin-left:20%;
+    margin-right:40%;
+}
+
+
+.overflow-hidden{
+    overflow:hidden;
+}
+
+.overflow-visible{
+    overflow:visible;
+}

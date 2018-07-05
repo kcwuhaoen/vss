@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" rel="stylesheet" href="css/structure.css">
+    <link type="text/css" rel="stylesheet" href="css/jquery-ui.min.css">
+    <link type="text/css" rel="stylesheet" href="css/jquery-ui.theme.min.css">
+    <link type="text/css" rel="stylesheet" href="css/jquery-ui.structure.min.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+</head>
+<body>
+<header class="header">
+    <div class="header-container">
+            <span class="header-logo-container">
+                <img class="header-logo-image" src="images/team-logo.png">
+            </span>
+        <span class="header-search-container">
+                <input type="text" class="header-search-input" placeholder="Search">
+                <span class="header-search-btn"><a class="ui-icon ui-icon-search" target="_self"></a></span>
+            </span>
+        <span class="header-userInfo-container un-login">
+                <a href=""><img class="header-userInfo-face" src="images/default-face.jpg"></a>
+                <a href=""><span class="header-userInfo-name">log in</span></a>
+                <a href=""><span class="header-userInfo-logout">log out</span></a>
+            </span>
+    </div>
+</header>
+<div class="left-ctg-container">
+    <ul class="left-ctg-ul">
+        <li onclick=""><a href="http://www.baidu.com">首页</a></li>
+        <li onclick=""><a href="http://www.baidu.com">电影</a></li>
+        <li onclick=""><a>科技</a></li>
+        <li onclick=""><a>生活</a></li>
+        <li onclick=""><a>美食</a></li>
+        <li onclick=""><a>搞笑</a></li>
+    </ul>
+</div>
+
+<div class="right-video-container">
+    <div class="right-ctg-container">
+        <span class="right-ctg-name">电影</span>
+        <span><a href="" class="right-ctg-more">more</a></span>
+    </div>
+    <div class="video-container">
+        <div class="video-thumbnail-container">
+            <a>
+                <img class="video-thumbnail-img" src="images/t1.jpg">
+            </a>
+        </div>
+        <div class="video-little-name overflow-hidden" onmouseover="visibleHandler(event)"
+             onmouseout="hiddenHandler(event)">Pellentesque vitae pulvinar tortor nullam interdum metus a imperdiet
+        </div>
+        <div class="video-little-container">
+            <div class="video-little-author video-little">kcwuhaoen</div>
+            <div class="video-little-time video-little">2018-02-04</div>
+        </div>
+    </div>
+    <div class="video-container">
+        <div class="video-thumbnail-container">
+            <a>
+                <img class="video-thumbnail-img" src="images/t1.jpg">
+            </a>
+        </div>
+        <div class="video-little-name overflow-hidden" onmouseover="visibleHandler(event)"
+             onmouseout="hiddenHandler(event)">Pellentesque vitae pulvinar tortor nullam interdum metus a imperdiet
+        </div>
+        <div class="video-little-container">
+            <div class="video-little-author video-little">kcwuhaoen</div>
+            <div class="video-little-time video-little">2018-02-04</div>
+        </div>
+    </div>
+    <div class="video-container">
+        <div class="video-thumbnail-container">
+            <a>
+                <img class="video-thumbnail-img" src="images/t1.jpg">
+            </a>
+        </div>
+        <div class="video-little-name overflow-hidden" onmouseover="visibleHandler(event)"
+             onmouseout="hiddenHandler(event)">Pellentesque vitae pulvinar tortor nullam interdum metus a imperdiet
+        </div>
+        <div class="video-little-container">
+            <div class="video-little-author video-little">kcwuhaoen</div>
+            <div class="video-little-time video-little">2018-02-04</div>
+        </div>
+    </div>
+    <div class="video-container">
+        <div class="video-thumbnail-container">
+            <a>
+                <img class="video-thumbnail-img" src="images/t1.jpg">
+            </a>
+        </div>
+        <div class="video-little-name overflow-hidden" onmouseover="visibleHandler(event)"
+             onmouseout="hiddenHandler(event)">Pellentesque vitae pulvinar tortor nullam interdum metus a imperdiet
+        </div>
+        <div class="video-little-container">
+            <div class="video-little-author video-little">kcwuhaoen</div>
+            <div class="video-little-time video-little">2018-02-04</div>
+        </div>
+    </div>
+    <div class="right-ctg-container">
+        <span class="right-ctg-name">科技</span>
+        <span><a href="" class="right-ctg-more">more</a></span>
+    </div>
+    <div class="video-container">
+        <div class="video-thumbnail-container">
+            <a>
+                <img class="video-thumbnail-img" src="images/t1.jpg">
+            </a>
+        </div>
+        <div class="video-little-name overflow-hidden" onmouseover="visibleHandler(event)"
+             onmouseout="hiddenHandler(event)">Pellentesque vitae pulvinar tortor nullam interdum metus a imperdiet
+        </div>
+        <div class="video-little-container">
+            <div class="video-little-author video-little">kcwuhaoen</div>
+            <div class="video-little-time video-little">2018-02-04</div>
+        </div>
+    </div>
+    <div class="video-container">
+        <div class="video-thumbnail-container">
+            <a>
+                <img class="video-thumbnail-img" src="images/t1.jpg">
+            </a>
+        </div>
+        <div class="video-little-name overflow-hidden" onmouseover="visibleHandler(event)"
+             onmouseout="hiddenHandler(event)">Pellentesque vitae pulvinar tortor nullam interdum metus a imperdiet
+        </div>
+        <div class="video-little-container">
+            <div class="video-little-author video-little">kcwuhaoen</div>
+            <div class="video-little-time video-little">2018-02-04</div>
+        </div>
+    </div>
+    <div class="video-container">
+        <div class="video-thumbnail-container">
+            <a>
+                <img class="video-thumbnail-img" src="images/t1.jpg">
+            </a>
+        </div>
+        <div class="video-little-name overflow-hidden" onmouseover="visibleHandler(event)"
+             onmouseout="hiddenHandler(event)">Pellentesque vitae pulvinar tortor nullam interdum metus a imperdiet
+        </div>
+        <div class="video-little-container">
+            <div class="video-little-author video-little">kcwuhaoen</div>
+            <div class="video-little-time video-little">2018-02-04</div>
+        </div>
+    </div>
+    <div class="video-container">
+        <div class="video-thumbnail-container">
+            <a>
+                <img class="video-thumbnail-img" src="images/t1.jpg">
+            </a>
+        </div>
+        <div class="video-little-name overflow-hidden" onmouseover="visibleHandler(event)"
+             onmouseout="hiddenHandler(event)">Pellentesque vitae pulvinar tortor nullam interdum metus a imperdiet
+        </div>
+        <div class="video-little-container">
+            <div class="video-little-author video-little">kcwuhaoen</div>
+            <div class="video-little-time video-little">2018-02-04</div>
+        </div>
+    </div>
+    <div class="right-ctg-container">
+        <span class="right-ctg-name">生活</span>
+        <span><a href="" class="right-ctg-more">more</a></span>
+    </div>
+    <div class="video-container">
+        <div class="video-thumbnail-container">
+            <a>
+                <img class="video-thumbnail-img" src="images/t1.jpg">
+            </a>
+        </div>
+        <div class="video-little-name overflow-hidden" onmouseover="visibleHandler(event)"
+             onmouseout="hiddenHandler(event)">Pellentesque vitae pulvinar tortor nullam interdum metus a imperdiet
+        </div>
+        <div class="video-little-container">
+            <div class="video-little-author video-little">kcwuhaoen</div>
+            <div class="video-little-time video-little">2018-02-04</div>
+        </div>
+    </div>
+    <div class="video-container">
+        <div class="video-thumbnail-container">
+            <a>
+                <img class="video-thumbnail-img" src="images/t1.jpg">
+            </a>
+        </div>
+        <div class="video-little-name overflow-hidden" onmouseover="visibleHandler(event)"
+             onmouseout="hiddenHandler(event)">Pellentesque vitae pulvinar tortor nullam interdum metus a imperdiet
+        </div>
+        <div class="video-little-container">
+            <div class="video-little-author video-little">kcwuhaoen</div>
+            <div class="video-little-time video-little">2018-02-04</div>
+        </div>
+    </div>
+    <div class="video-container">
+        <div class="video-thumbnail-container">
+            <a>
+                <img class="video-thumbnail-img" src="images/t1.jpg">
+            </a>
+        </div>
+        <div class="video-little-name overflow-hidden" onmouseover="visibleHandler(event)"
+             onmouseout="hiddenHandler(event)">Pellentesque vitae pulvinar tortor nullam interdum metus a imperdiet
+        </div>
+        <div class="video-little-container">
+            <div class="video-little-author video-little">kcwuhaoen</div>
+            <div class="video-little-time video-little">2018-02-04</div>
+        </div>
+    </div>
+    <div class="video-container">
+        <div class="video-thumbnail-container">
+            <a>
+                <img class="video-thumbnail-img" src="images/t1.jpg">
+            </a>
+        </div>
+        <div class="video-little-name overflow-hidden" onmouseover="visibleHandler(event)"
+             onmouseout="hiddenHandler(event)">Pellentesque vitae pulvinar tortor nullam interdum metus a imperdiet
+        </div>
+        <div class="video-little-container">
+            <div class="video-little-author video-little">kcwuhaoen</div>
+            <div class="video-little-time video-little">2018-02-04</div>
+        </div>
+    </div>
+    <div class="right-ctg-container">
+        <span class="right-ctg-name">美食</span>
+        <span><a href="" class="right-ctg-more">more</a></span>
+    </div>
+    <div class="video-container">
+        <div class="video-thumbnail-container">
+            <a>
+                <img class="video-thumbnail-img" src="images/t1.jpg">
+            </a>
+        </div>
+        <div class="video-little-name overflow-hidden" onmouseover="visibleHandler(event)"
+             onmouseout="hiddenHandler(event)">Pellentesque vitae pulvinar tortor nullam interdum metus a imperdiet
+        </div>
+        <div class="video-little-container">
+            <div class="video-little-author video-little">kcwuhaoen</div>
+            <div class="video-little-time video-little">2018-02-04</div>
+        </div>
+    </div>
+    <div class="video-container">
+        <div class="video-thumbnail-container">
+            <a>
+                <img class="video-thumbnail-img" src="images/t1.jpg">
+            </a>
+        </div>
+        <div class="video-little-name overflow-hidden" onmouseover="visibleHandler(event)"
+             onmouseout="hiddenHandler(event)">Pellentesque vitae pulvinar tortor nullam interdum metus a imperdiet
+        </div>
+        <div class="video-little-container">
+            <div class="video-little-author video-little">kcwuhaoen</div>
+            <div class="video-little-time video-little">2018-02-04</div>
+        </div>
+    </div>
+    <div class="video-container">
+        <div class="video-thumbnail-container">
+            <a>
+                <img class="video-thumbnail-img" src="images/t1.jpg">
+            </a>
+        </div>
+        <div class="video-little-name overflow-hidden" onmouseover="visibleHandler(event)"
+             onmouseout="hiddenHandler(event)">Pellentesque vitae pulvinar tortor nullam interdum metus a imperdiet
+        </div>
+        <div class="video-little-container">
+            <div class="video-little-author video-little">kcwuhaoen</div>
+            <div class="video-little-time video-little">2018-02-04</div>
+        </div>
+    </div>
+    <div class="video-container">
+        <div class="video-thumbnail-container">
+            <a>
+                <img class="video-thumbnail-img" src="images/t1.jpg">
+            </a>
+        </div>
+        <div class="video-little-name overflow-hidden" onmouseover="visibleHandler(event)"
+             onmouseout="hiddenHandler(event)">Pellentesque vitae pulvinar tortor nullam interdum metus a imperdiet
+        </div>
+        <div class="video-little-container">
+            <div class="video-little-author video-little">kcwuhaoen</div>
+            <div class="video-little-time video-little">2018-02-04</div>
+        </div>
+    </div>
+    <div class="right-ctg-container">
+        <span class="right-ctg-name">搞笑</span>
+        <span><a href="" class="right-ctg-more">more</a></span>
+    </div>
+    <div class="video-container">
+        <div class="video-thumbnail-container">
+            <a>
+                <img class="video-thumbnail-img" src="images/t1.jpg">
+            </a>
+        </div>
+        <div class="video-little-name overflow-hidden" onmouseover="visibleHandler(event)"
+             onmouseout="hiddenHandler(event)">Pellentesque vitae pulvinar tortor nullam interdum metus a imperdiet
+        </div>
+        <div class="video-little-container">
+            <div class="video-little-author video-little">kcwuhaoen</div>
+            <div class="video-little-time video-little">2018-02-04</div>
+        </div>
+    </div>
+    <div class="video-container">
+        <div class="video-thumbnail-container">
+            <a>
+                <img class="video-thumbnail-img" src="images/t1.jpg">
+            </a>
+        </div>
+        <div class="video-little-name overflow-hidden" onmouseover="visibleHandler(event)"
+             onmouseout="hiddenHandler(event)">Pellentesque vitae pulvinar tortor nullam interdum metus a imperdiet
+        </div>
+        <div class="video-little-container">
+            <div class="video-little-author video-little">kcwuhaoen</div>
+            <div class="video-little-time video-little">2018-02-04</div>
+        </div>
+    </div>
+    <div class="video-container">
+        <div class="video-thumbnail-container">
+            <a>
+                <img class="video-thumbnail-img" src="images/t1.jpg">
+            </a>
+        </div>
+        <div class="video-little-name overflow-hidden" onmouseover="visibleHandler(event)"
+             onmouseout="hiddenHandler(event)">Pellentesque vitae pulvinar tortor nullam interdum metus a imperdiet
+        </div>
+        <div class="video-little-container">
+            <div class="video-little-author video-little">kcwuhaoen</div>
+            <div class="video-little-time video-little">2018-02-04</div>
+        </div>
+    </div>
+    <div class="video-container">
+        <div class="video-thumbnail-container">
+            <a>
+                <img class="video-thumbnail-img" src="images/t1.jpg">
+            </a>
+        </div>
+        <div class="video-little-name overflow-hidden" onmouseover="visibleHandler(event)"
+             onmouseout="hiddenHandler(event)">Pellentesque vitae pulvinar tortor nullam interdum metus a imperdiet
+        </div>
+        <div class="video-little-container">
+            <div class="video-little-author video-little">kcwuhaoen</div>
+            <div class="video-little-time video-little">2018-02-04</div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

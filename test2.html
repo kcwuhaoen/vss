@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" rel="stylesheet" href="css/DPlayer.min.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/DPlayer.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var dplayer=new DPlayer({
+                element: document.getElementById('dplayer'),
+                video:{
+                    url:"file:///E:/IDEA/VSS/a.mp4"
+                },
+                danmaku: {
+                    id: "our-danmaku-1",
+                    api: 'https://api.prprpr.me/dplayer/'
+                }
+            })
+        })
+    </script>
+</head>
+<body bgcolor="red" >
+<div id="dplayer"></div>
+</body>
+</html>
